@@ -21,8 +21,8 @@
 <?php if ( empty( $atts['email'] ) ) : ?>
 <div class="col-md-4">
 <div class="form-group">
-            <label class="pay-now"><?php _e( 'Email', 'rave-pay' ) ?></label><br>
-           <span class="wpcf7-form-control-wrap your-email"><input class="flw-form-input-text wpcf7-form-control wpcf7-validates-as-required form-control" id="flw-customer-email" type="email" placeholder="<?php _e( 'Email', 'rave-pay' ) ?>" required />
+            <label class="pay-now"><?php _e( 'Your e-mail', 'rave-pay' ) ?></label><br>
+           <span class="wpcf7-form-control-wrap your-email"><input class="flw-form-input-text wpcf7-form-control wpcf7-validates-as-required form-control" id="flw-customer-email" type="email" placeholder="<?php _e( 'Please enter your email.', 'rave-pay' ) ?>" required />
            </span>
         </div></div>
 <?php endif; ?>
