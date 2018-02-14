@@ -19,7 +19,7 @@
 <div class="row element-bottom-40">
 
 <?php if ( empty( $atts['email'] ) ) : ?>
-<div class="col-md-4">
+<div class="col-md-9">
 <div class="form-group">
             <label class="pay-now"><?php _e( 'Your e-mail', 'rave-pay' ) ?></label><br>
            <span class="wpcf7-form-control-wrap your-email"><input class="flw-form-input-text wpcf7-form-control wpcf7-validates-as-required form-control" id="flw-customer-email" type="email" placeholder="<?php _e( 'Please enter your email.', 'rave-pay' ) ?>" required />
@@ -28,7 +28,7 @@
 <?php endif; ?>
 
 <?php if ( empty( $atts['amount'] ) ) : ?>
-<div class="col-md-4">
+<div class="col-md-5">
 <div class="form-group  text-left">
             <label class="pay-now"><?php _e( 'Amount', 'rave-pay' ); ?></label><br>
             <span class="wpcf7-form-control-wrap menu-133"><div class="select-wrap"><select name="menu-133" id="flw-amount" class="wpcf7-form-control wpcf7-select" aria-invalid="false"><option value="500">500</option><option value="1000">1000</option><option value="2000">2000</option><option value="5000">5000</option><option value="10000">10000</option><option value="15000">15000</option><option value="20000">20000</option><option value="100000">100000</option></select></div></span>
